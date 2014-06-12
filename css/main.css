@@ -1,0 +1,112 @@
+html {
+	background-color: #2D9668;
+}
+body {
+    height: 600px;
+    width: 900px;
+    margin: 0 auto 0;
+
+}
+a {
+	text-decoration: none;
+}
+header {
+	position: absolute;
+	text-align: center;
+	margin-top: 29px;
+	margin-left: 75px;
+	width: 750px;
+	height: 8.4em;
+	border-bottom: solid #802679 4px;
+}
+#silla {
+	position: relative;
+	width: 200px;
+	top: -150px;
+	left: 200px;
+}
+#baston {
+	position: relative;
+	width: 100px;
+	top: -150px;
+	left: 300px;
+}
+#hr-main {
+	position: relative;
+	top: -1em;
+	color:#802679;
+}
+#yep{
+	position: relative;
+	width: 500px;
+	height: 20px;
+	top:-200px;
+	left: 300px;
+	color: #802679;
+	text-shadow: -.5px 0 #FFFF00, 0 .5px #FFFF00, .5px 0 #FFFF00, 0 -.5px #FFFF00;
+
+}
+#nombre {
+	position: relative;
+	top: 190px;
+}
+#logo { /* main logo*/
+	margin-left: -15em;
+	width: 18em;
+}
+#titles-container { /* Container of the titles(tech, health, etc.)*/
+	text-align: center;
+	width: 92.5%;
+	height: 2em;
+	position: absolute;
+	bottom: .5em;
+	margin-left: 3.75%;
+}
+#map {
+	position: relative;
+	top: 200px;
+	left: 80px;
+}
+#direccion {
+	position: relative;
+	top:180px;
+	left: 100px;
+}
+#horarios {
+	position: relative;
+	top: 180px;
+	left: 100px;
+
+}
+#titulo {
+	position: relative;
+	top: -230px;
+	right: -540px;
+	color: #802679;
+	text-shadow: -.5px 0 #FFFF00, 0 .5px #FFFF00, .5px 0 #FFFF00, 0 -.5px #FFFF00;
+}
+#text {
+	position: relative;
+	width: 300px;
+	left: 530px;
+	top: -200px;
+	
+}
+.header-titles { /*Titles styles*/
+	text-decoration: none;
+	position: relative;
+	text-align: center;
+	font-size: 1em;
+	height: 2.7em;
+	width: 4em;
+	margin: -.2em 1.2em; 
+    display: inline-block;
+    border-bottom: solid #802679 4px;
+    
+}
+.header-titles:hover {
+	border-bottom: solid 4px #FFFF00;
+}
+.text-color-titles {
+	color: black;
+}
